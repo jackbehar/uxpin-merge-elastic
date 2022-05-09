@@ -5,7 +5,7 @@ module.exports = {
           name: "Inputs",
           include: [
             "src/Button/Button.js",
-            "src/Icon/Icon.js",
+            "src/Text/Text.js",
           ]
         }
 
