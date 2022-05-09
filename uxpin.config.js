@@ -6,6 +6,7 @@ module.exports = {
           include: [
             "src/Button/Button.js",
             "src/Text/Text.js",
+            "src/Avatar/Avatar.js",
           ]
         }
 
