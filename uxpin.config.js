@@ -8,6 +8,7 @@ module.exports = {
             "src/Text/Text.js",
             "src/Avatar/Avatar.js",
             "src/Badge/Badge.js",
+            "src/Breadcrumbs/Breadcrumbs.js"
           ]
         }
 
