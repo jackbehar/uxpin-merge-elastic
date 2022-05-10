@@ -4,11 +4,12 @@ module.exports = {
         {
           name: "Inputs",
           include: [
-            "src/Button/Button.js",
-            "src/Text/Text.js",
             "src/Avatar/Avatar.js",
             "src/Badge/Badge.js",
-            "src/Breadcrumbs/Breadcrumbs.js"
+            "src/Breadcrumbs/Breadcrumbs.js",
+            "src/Button/Button.js",
+            "src/Text/Text.js",
+            "src/Title/Title.js",
           ]
         }
 
