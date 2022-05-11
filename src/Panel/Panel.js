@@ -9,11 +9,13 @@ function Panel(props) {
             aria-label={props.ariaLabel}
             data-test-subj={props.dataTestSubj}
         >
-            {props.element}
+            {props.children}
         </EuiPanel>);
 }
 
 Panel.propTypes = {
+    children: PropTypes.node,
+
     element: PropTypes.element,
 
     className: PropTypes.string,
