@@ -25,6 +25,7 @@ module.exports = {
           include: [
             "src/Avatar/Avatar.js",
             "src/Badge/Badge.js",
+            "src/CallOut/CallOut.js",
             "src/Health/Health.js",
             'src/Image/Image.js',
             "src/NotificationEvent/NotificationEvent.js",
