@@ -14,6 +14,7 @@ module.exports = {
           include: [
             "src/Button/Button.js",
             "src/Breadcrumbs/Breadcrumbs.js",
+            "src/Facet/Facet.js",
             "src/Link/Link.js"
           ]
         },
