@@ -4,8 +4,10 @@ module.exports = {
         {
           name: "Layout",
           include: [
+            "src/Accordion/Accordion.js",
             "src/FlexItem/FlexItem.js",
             "src/FlexGroup/FlexGroup.js",
+            "src/HorizontalRule/HorizontalRule.js",
             "src/Panel/Panel.js",
             "src/Popover/Popover.js",
             "src/Spacer/Spacer.js"

@@ -35,6 +35,8 @@ Card.propTypes = {
   rel: PropTypes.string,
   betaBadgeProps: PropTypes.object,
   display: PropTypes.oneOf(["primary", "accent", "success", "warning", "danger", "subdued", "plain", "transparent"]),
+  selectable: PropTypes.Object, // EuiCardSelectProps e.g - selectable={{ onClick: card2Clicked, isSelected: card2Selected }}
+  hasBorder: PropTypes.bool,
   "aria-label": PropTypes.string,
   "data-test-subj": PropTypes.string,
   className: PropTypes.string,
