@@ -4,6 +4,7 @@ module.exports = {
         {
           name: "Layout",
           include: [
+            "src/Panel/Panel.js",
             "src/Popover/Popover.js",
             "src/Spacer/Spacer.js"
           ]
