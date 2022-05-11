@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "uxpin-merge --disable-tunneling --webpack-config ./webpack.config.js --wrapper ./src/Wrapper/UXPinWrapper.js"
+    "start": "uxpin-merge --disable-tunneling --webpack-config ./uxpin.webpack.config.js --wrapper ./src/UXPinWrapper/UXPinWrapper.js"
   },
   "author": "",
   "license": "ISC",
@@ -13,7 +13,7 @@
     "@babel/plugin-proposal-class-properties": "^7.3.0",
     "@babel/preset-env": "^7.1.0",
     "@babel/preset-react": "^7.0.0",
-    "@uxpin/merge-cli": "^2.7.8",
+    "@uxpin/merge-cli": "^2.7.10",
     "babel-loader": "^8.0.4",
     "prop-types": "^15.6.2",
     "react": "^16.9.0",
