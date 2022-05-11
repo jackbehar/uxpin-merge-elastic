@@ -25,6 +25,7 @@ module.exports = {
             "src/Badge/Badge.js",
             'src/Image/Image.js',
             "src/Text/Text.js",
+            "src/Toast/Toast.js",
             // "src/LoadingElastic/LoadingElastic.js",
           ]
         }
