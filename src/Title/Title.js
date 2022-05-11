@@ -16,8 +16,8 @@ function Title(props) {
 Title.propTypes = {
   children: PropTypes.node, 
   size: PropTypes.oneOf(["xs", "s", "m", "l", "xxxs", "xxs"]),
-  ariaLabel: PropTypes.string,
-  dataTestSubj: PropTypes.string,
+  "aria-label": PropTypes.string,
+  "data-test-subj": PropTypes.string,
   textTransform: PropTypes.oneOf(["uppercase"]),
   id: PropTypes.string,
   className: PropTypes.string,

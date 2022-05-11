@@ -10,11 +10,11 @@ function FlexItem(props) {
 }
 
 FlexItem.propTypes = {
-   children: PropTypes.node, 
-   grow: PropTypes.bool,
-   ariaLabel: PropTypes.string,
-   dataTestSubj: PropTypes.string,
-   className: PropTypes.string,
+  children: PropTypes.node, 
+  grow: PropTypes.bool,
+  "aria-label": PropTypes.string,
+  "data-test-subj": PropTypes.string,
+  className: PropTypes.string,
 };
 
 

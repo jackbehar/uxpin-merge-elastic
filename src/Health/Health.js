@@ -17,8 +17,8 @@ Health.propTypes = {
   children: PropTypes.node, 
   textSize: PropTypes.oneOf(["xs", "s", "m", "l", "xxxs", "xxs"]),
   color: PropTypes.oneOf(["default", "accent", "success", "warning", "danger", "ghost", "subdued"]),
-  ariaLabel: PropTypes.string,
-  dataTestSubj: PropTypes.string,
+  "aria-label": PropTypes.string,
+  "data-test-subj": PropTypes.string,
   className: PropTypes.string,
 };
 

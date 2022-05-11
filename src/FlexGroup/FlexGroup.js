@@ -19,8 +19,8 @@ FlexGroup.propTypes = {
   responsive: PropTypes.bool,
   wrap: PropTypes.bool,
   ref: PropTypes.element,
-  ariaLabel: PropTypes.string,
-  dataTestSubj: PropTypes.string,
+  "aria-label": PropTypes.string,
+  "data-test-subj": PropTypes.string,
   className: PropTypes.string,
 };
 

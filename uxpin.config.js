@@ -26,6 +26,7 @@ module.exports = {
             "src/Avatar/Avatar.js",
             "src/Badge/Badge.js",
             "src/CallOut/CallOut.js",
+            "src/Card/Card.js",
             "src/Health/Health.js",
             'src/Image/Image.js',
             "src/NotificationEvent/NotificationEvent.js",
