@@ -39,6 +39,7 @@ module.exports = {
             "src/Title/Title.js",
             "src/Toast/Toast.js",
             "src/ToolTip/ToolTip.js",
+            "src/Icon/Icon.js"
             // "src/LoadingElastic/LoadingElastic.js",
           ]
         }
