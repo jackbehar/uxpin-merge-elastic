@@ -5,6 +5,7 @@ module.exports = {
           name: "Layout",
           include: [
             "src/Accordion/Accordion.js",
+            "src/BottomBar/BottomBar.js",
             "src/FlexItem/FlexItem.js",
             "src/FlexGroup/FlexGroup.js",
             "src/HorizontalRule/HorizontalRule.js",

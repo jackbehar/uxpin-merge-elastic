@@ -5,20 +5,19 @@ import { EuiAccordion, useGeneratedHtmlId } from '@elastic/eui';
 function Accordion(props) {
      const accordionId = useGeneratedHtmlId({ prefix: props.id });
 
-     const [isAccordionOpen, setIsAccordionOpen] = useState(isToggled);
-     
-     // issue: as this return true/ false it will not open/ close every click action due to forceState needing to be passed a value of Open/ Closed
-     // This implementation needs to be redone
-     const handleToggle = useCallback(() => setIsAccordionOpen(prevIsAccordionOpen => !prevIsAccordionOpen), [isAccordionOpen, props.forceState]);
-     console.log(props.forceState, isAccordionOpen)
+     const [isAccordionOpen, setIsAccordionOpen] = useState(props.forceState);
 
-     React.useEffect(() => setIsAccordionOpen(props.forceState), [props]);
+     // For preview
+     const handleToggle = () => { setIsAccordionOpen(props.forceState), [isAccordionOpen, props.forceState] }
+
+     // For editor - [WIP]
+     React.useEffect(() => setIsAccordionOpen(props.forceState), [isAccordionOpen, props.forceState] );
 
      return (
           <EuiAccordion 
                {...props}
                onToggle={handleToggle} 
-               forceState={isAccordionOpen}
+               forceState={isAccordionOpen | props.forceState}
                id={accordionId}>
                     {props.children}
           </EuiAccordion>
