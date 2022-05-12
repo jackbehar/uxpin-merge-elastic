@@ -8,6 +8,7 @@ module.exports = {
             "src/BottomBar/BottomBar.js",
             "src/FlexItem/FlexItem.js",
             "src/FlexGroup/FlexGroup.js",
+            "src/Flyout/Flyout.js",
             "src/HorizontalRule/HorizontalRule.js",
             "src/Panel/Panel.js",
             "src/Popover/Popover.js",
