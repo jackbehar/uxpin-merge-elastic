@@ -12,7 +12,7 @@ module.exports = {
             "src/HorizontalRule/HorizontalRule.js",
             "src/Panel/Panel.js",
             "src/Popover/Popover.js",
-            "src/Spacer/Spacer.js"
+            "src/Spacer/Spacer.js",
           ]
         },
         {

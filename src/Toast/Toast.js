@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { EuiToast } from '@elastic/eui';
+import { iconList} from '../Icon/iconList/iconList';
 
 function Toast(props) {
     return (
@@ -26,7 +27,7 @@ Toast.propTypes = {
 
     color: PropTypes.oneOf(["primary", "success", "warning", "danger"]),
 
-    iconType: PropTypes.string,
+    iconType: PropTypes.oneOf(iconList),
 
     onClose: PropTypes. func,
 
