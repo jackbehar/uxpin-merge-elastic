@@ -11,6 +11,7 @@ module.exports = {
             "src/Flyout/Flyout.js",
             "src/HorizontalRule/HorizontalRule.js",
             "src/Panel/Panel.js",
+            "src/PageHeader/PageHeader.js",
             "src/Popover/Popover.js",
             "src/Spacer/Spacer.js",
           ]
