@@ -16,18 +16,60 @@ function Stat(props) {
 }
 
 Stat.propTypes = {
-  title: PropTypes.node,
-  description: PropTypes.node,
-  isLoading: PropTypes.bool,
-  reverse: PropTypes.bool, 
-  textAlign: PropTypes.oneOf(["left", "right", "center"]),
+  /**
+   * Defines a string value that labels the current element. @see aria-labelledby.
+   */
   "aria-label": PropTypes.string,
+
   "data-test-subj": PropTypes.string,
-  titleColor: PropTypes.string,
-  titleSize: PropTypes.oneOf(["xs", "s", "m", "l", "xxxs", "xxs"]),
-  titleElement: PropTypes.string,
-  descriptionElement: PropTypes.string,
+
   className: PropTypes.string,
+
+  /**
+   * Set the description (label) text
+   */
+  descriptionElement: PropTypes.string,
+
+  /**
+   * HTML Element to be used for title
+   */
+  titleElement: PropTypes.string,
+
+  /**
+   * The color of the title text
+   */
+  titleColor: PropTypes.string,
+
+  /**
+   * Set the description (label) text
+   */
+  description: PropTypes.node,
+
+  /**
+   * The (value) text
+   */
+  title: PropTypes.node,
+
+  /**
+   * Allignment of all text
+   */
+  textAlign: PropTypes.oneOf(["left", "right", "center"]),
+
+  /**
+   * Size of the title. See EuiTitle for options ('s', 'm', 'l'... etc)
+   */
+  titleSize: PropTypes.oneOf(["xs", "s", "m", "l", "xxxs", "xxs"]),
+
+  /**
+   * Will hide the title with an animation until false
+   */
+  isLoading: PropTypes.bool,
+
+  /**
+   * Flips the order of the description and title
+   */
+  reverse: PropTypes.bool,
+ 
 };
 
 export default Stat;
