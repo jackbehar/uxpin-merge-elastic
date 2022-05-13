@@ -2,6 +2,9 @@ import React from "react";
 import PropTypes from "prop-types";
 import { EuiText } from '@elastic/eui';
 
+/**
+ * @uxpindocurl https://elastic.github.io/eui/#/display/text
+ */
 function Text(props) {
   return (
     <EuiText {...props}>{props.children}</EuiText>

@@ -2,7 +2,9 @@ import React from "react";
 import PropTypes from "prop-types";
 import { EuiFlexGroup } from '@elastic/eui';
 
-
+/**
+ * @uxpindocurl https://elastic.github.io/eui/#/layout/flex
+ */
 function FlexGroup(props) {
   return (
     <EuiFlexGroup {...props}>{props.children}</EuiFlexGroup>

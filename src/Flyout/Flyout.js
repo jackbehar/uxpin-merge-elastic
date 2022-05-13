@@ -9,6 +9,9 @@ import {
 import Button from '../Button/Button';
 import Title from '../Title/Title';
 
+/**
+ * @uxpindocurl https://elastic.github.io/eui/#/layout/flyout
+ */
 function Flyout(props) {
   const [isFlyoutVisible, setIsFlyoutVisible] = useState(false);
   const simpleFlyoutTitleId = useGeneratedHtmlId({

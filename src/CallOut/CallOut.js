@@ -4,6 +4,9 @@ import { EuiCallOut } from '@elastic/eui';
 import { iconList } from '../Icon/iconList/iconList';
 
 
+/**
+ * @uxpindocurl https://elastic.github.io/eui/#/display/callout
+ */
 function CallOut(props) {
   return (
     <EuiCallOut {...props}>{props.children}</EuiCallOut>

@@ -2,6 +2,9 @@ import React from "react";
 import PropTypes from "prop-types";
 import { EuiStat } from '@elastic/eui';
 
+/**
+ * @uxpindocurl https://elastic.github.io/eui/#/display/stat
+ */
 function Stat(props) {
   return (
     <EuiStat 

@@ -3,7 +3,9 @@ import PropTypes from "prop-types";
 import { EuiIcon } from '@elastic/eui';
 import { iconList } from './iconList/iconList';
 
-
+/**
+ * @uxpindocurl https://elastic.github.io/eui/#/display/icons
+ */
 function Icon(props) {
   return (
     <EuiIcon 

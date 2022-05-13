@@ -4,6 +4,9 @@ import { EuiNotificationEvent, EuiContextMenuItem } from '@elastic/eui';
 import Panel from '../Panel/Panel';
 import { iconList } from '../Icon/iconList/iconList';
 
+/**
+ * @uxpindocurl https://elastic.github.io/eui/#/display/notification-event
+ */
 function NotificationEvent(props) {
     const [isRead, setIsRead] = React.useState(false);
 

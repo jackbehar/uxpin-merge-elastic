@@ -4,6 +4,9 @@ import { EuiCard } from '@elastic/eui';
 import Icon from "../Icon/Icon";
 import { iconList } from '../Icon/iconList/iconList';
 
+/**
+ * @uxpindocurl https://elastic.github.io/eui/#/display/card
+ */
 function Card(props) {
   
   return (

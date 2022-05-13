@@ -3,7 +3,9 @@ import PropTypes from "prop-types";
 import { EuiButton } from '@elastic/eui';
 import { iconList } from '../Icon/iconList/iconList';
 
-
+/**
+ * @uxpindocurl https://elastic.github.io/eui/#/navigation/button
+ */
 function Button(props) {
   return (
     <EuiButton {...props}>{props.children}</EuiButton>

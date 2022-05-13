@@ -4,6 +4,9 @@ import { EuiPopover } from '@elastic/eui';
 import Button from '../Button/Button';
 import Text from '../Text/Text';
 
+/**
+ * @uxpindocurl https://elastic.github.io/eui/#/layout/popover
+ */
 function Popover(props) {
     const [isPopoverOpen, setIsPopoverOpen] = useState(false);
 

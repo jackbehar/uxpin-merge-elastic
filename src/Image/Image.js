@@ -2,6 +2,9 @@ import { EuiImage } from '@elastic/eui';
 import PropTypes from 'prop-types';
 import React from 'react';
 
+/**
+ * @uxpindocurl https://elastic.github.io/eui/#/display/image
+ */
 function Image(props) {
     return (
     <EuiImage 

@@ -2,6 +2,9 @@ import React from "react";
 import PropTypes from "prop-types";
 import { EuiHorizontalRule } from '@elastic/eui';
 
+/**
+ * @uxpindocurl https://elastic.github.io/eui/#/layout/horizontal-rule
+ */
 function HorizontalRule(props) {
   return (
     <EuiHorizontalRule 

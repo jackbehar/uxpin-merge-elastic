@@ -2,6 +2,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { EuiSpacer } from '@elastic/eui';
 
+/**
+ * @uxpindocurl https://elastic.github.io/eui/#/layout/spacer
+ */
 function Spacer(props) {
     return <EuiSpacer {...props} data-test-subj={props.dataTestSubj} />
 }

@@ -2,6 +2,9 @@ import React from "react";
 import PropTypes from "prop-types";
 import { EuiTitle } from '@elastic/eui';
 
+/**
+ * @uxpindocurl https://elastic.github.io/eui/#/display/title
+ */
 function Title(props) {
   return (
     <EuiTitle 

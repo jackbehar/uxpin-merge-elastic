@@ -2,6 +2,9 @@ import React from "react";
 import PropTypes from "prop-types";
 import { EuiHealth } from '@elastic/eui';
 
+/**
+ * @uxpindocurl https://elastic.github.io/eui/#/display/health
+ */
 function Health(props) {
   return (
     <EuiHealth 

@@ -5,6 +5,9 @@ import {
 } from '@elastic/eui';
 import Button from '../Button/Button';
 
+/**
+ * @uxpindocurl https://elastic.github.io/eui/#/layout/bottom-bar
+ */
 function BottomBar(props) {
    const [showBar, setShowBar] = useState(false);
 

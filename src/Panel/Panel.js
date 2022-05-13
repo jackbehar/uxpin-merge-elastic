@@ -2,6 +2,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { EuiPanel } from '@elastic/eui';
 
+/**
+ * @uxpindocurl https://elastic.github.io/eui/#/layout/panel
+ */
 function Panel(props) {
     return (
         <EuiPanel 

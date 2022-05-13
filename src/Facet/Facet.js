@@ -4,6 +4,9 @@ import { EuiFacetButton } from '@elastic/eui';
 import { iconList } from '../Icon/iconList/iconList';
 import Icon from '../Icon/Icon';
 
+/**
+ * @uxpindocurl https://elastic.github.io/eui/#/navigation/facet
+ */
 function Facet(props) {
     return (
         <EuiFacetButton 

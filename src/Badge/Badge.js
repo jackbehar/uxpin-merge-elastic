@@ -3,6 +3,9 @@ import PropTypes from "prop-types";
 import { EuiBadge } from '@elastic/eui';
 import { iconList } from '../Icon/iconList/iconList';
 
+/**
+ * @uxpindocurl https://elastic.github.io/eui/#/display/badge
+ */
 function Badge(props) {
      return (
           <EuiBadge {...props} />

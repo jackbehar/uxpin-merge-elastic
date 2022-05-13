@@ -2,6 +2,9 @@ import React from "react";
 import PropTypes from "prop-types";
 import { EuiBreadcrumbs } from '@elastic/eui';
 
+/**
+ * @uxpindocurl https://elastic.github.io/eui/#/navigation/breadcrumbs
+ */
 function Breadcrumbs(props) {
   return (
     <EuiBreadcrumbs {...props} />

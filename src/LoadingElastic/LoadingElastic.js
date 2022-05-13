@@ -2,6 +2,9 @@ import { EuiLoadingElastic } from '@elastic/eui';
 import PropTypes from 'prop-types';
 import React from 'react';
 
+/**
+ * @uxpindocurl https://elastic.github.io/eui/#/display/loading
+ */
 function LoadingElastic(props) {
     return (
         <div>
