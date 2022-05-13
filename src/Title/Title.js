@@ -17,13 +17,35 @@ function Title(props) {
 }
 
 Title.propTypes = {
+  /**
+   * @uxpinignoreprop
+   */
   children: PropTypes.node, 
-  size: PropTypes.oneOf(["xs", "s", "m", "l", "xxxs", "xxs"]),
-  "aria-label": PropTypes.string,
-  "data-test-subj": PropTypes.string,
-  textTransform: PropTypes.oneOf(["uppercase"]),
+
+  /**
+   * ID of Title
+   */
   id: PropTypes.string,
+
+  /**
+   * Defines a string value that labels the current element. See aria-labelledby.
+   */
+  "aria-label": PropTypes.string,
+
+  "data-test-subj": PropTypes.string,
+
   className: PropTypes.string,
+
+  /**
+   * Font size
+   */
+  size: PropTypes.oneOf(["xs", "s", "m", "l", "xxxs", "xxs"]),
+
+  /**
+   * If text is uppercase
+   */
+  textTransform: PropTypes.oneOf(["uppercase"]),
+  
 };
 
 export default Title;
