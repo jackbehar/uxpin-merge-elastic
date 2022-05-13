@@ -1,6 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { EuiFacetButton } from '@elastic/eui';
+import { iconList } from '../Icon/iconList/iconList';
+import Icon from '../Icon/Icon';
 
 function Facet(props) {
     return (
@@ -8,6 +10,7 @@ function Facet(props) {
             {...props}
             aria-label={props.ariaLabel}
             data-test-subj={props.dataTestSubj}
+            icon={props.icon == "none" ? null : <Icon type={props.icon} />}
         >
             {props.children}
         </EuiFacetButton>);
@@ -46,9 +49,13 @@ Facet.propTypes = {
     /**
      * Any node, but preferably a EuiIcon or EuiAvatar
      */
-    icon: PropTypes.node,
+    icon: PropTypes.oneOf(iconList),
 
     onClick: PropTypes.func,
+}
+
+Facet.defaultProps = {
+    icon: "none",
 }
 
 export default Facet;

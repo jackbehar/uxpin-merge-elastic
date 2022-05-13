@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { EuiNotificationEvent, EuiContextMenuItem } from '@elastic/eui';
 import Panel from '../Panel/Panel';
+import { iconList } from '../Icon/iconList/iconList';
 
 function NotificationEvent(props) {
     const [isRead, setIsRead] = React.useState(false);
@@ -87,7 +88,7 @@ NotificationEvent.propTypes = {
     /**
      * The icon used to visually represent this data type. Accepts any EuiIcon IconType.
      */
-    iconType: PropTypes.string,
+    iconType: PropTypes.oneOf(iconList),
 
     /**
      * Type of event (e.g. "Alert", "Cloud", etc..). Shows inside a badge.

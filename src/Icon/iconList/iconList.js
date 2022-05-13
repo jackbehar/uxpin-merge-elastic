@@ -1,4 +1,5 @@
 export const iconList = [
+    "none",
     "accessibility", 
     "addDataApp", 
     "advancedSettingsApp", 
