@@ -12,13 +12,30 @@ function FlexItem(props) {
 }
 
 FlexItem.propTypes = {
+  /**
+   * @uxpinignoreprop
+   */
   children: PropTypes.node, 
-  grow: PropTypes.bool,
+
+  /**
+   * Defines a string value that labels the current element. See aria-labelledby.
+   */
   "aria-label": PropTypes.string,
+
   "data-test-subj": PropTypes.string,
+
   className: PropTypes.string,
+
+  /** 
+   * Element type of the component
+   */
+  component: PropTypes.element,
+
+  /**
+   * If the component will take full available width
+   */
+  grow: PropTypes.bool,
+  
 };
-
-
 
 export default FlexItem;
