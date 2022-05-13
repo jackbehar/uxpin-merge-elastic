@@ -8,16 +8,19 @@ function Accordion(props) {
      const [isAccordionOpen, setIsAccordionOpen] = useState(props.forceState);
 
      // For preview
-     const handleToggle = () => { setIsAccordionOpen(props.forceState), [isAccordionOpen, props.forceState] }
+     const handleToggle = (isOpen) => {
+          const newState = isOpen ? 'open' : 'closed';
+          setIsAccordionOpen(newState);
+     }
 
      // For editor - [WIP]
-     React.useEffect(() => setIsAccordionOpen(props.forceState), [isAccordionOpen, props.forceState] );
+     React.useEffect(() => setIsAccordionOpen(props.forceState), [props.forceState] );
 
      return (
           <EuiAccordion 
                {...props}
                onToggle={handleToggle} 
-               forceState={isAccordionOpen | props.forceState}
+               forceState={isAccordionOpen}
                id={accordionId}>
                     {props.children}
           </EuiAccordion>
