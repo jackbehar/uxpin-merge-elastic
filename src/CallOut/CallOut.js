@@ -14,16 +14,47 @@ function CallOut(props) {
 }
 
 CallOut.propTypes = {
+  /**
+   * @uxpinignoreprop
+   */
   children: PropTypes.node,
-  title: PropTypes.node,
-  heading: PropTypes.oneOf(["h1", "h2", "h3", "h4", "h5", "h6", "p"]),
-  color: PropTypes.oneOf(["primary", "accent", "success", "warning", "danger"]),
-  size: PropTypes.oneOf(["s", "m"]),
-  iconType: PropTypes.oneOf(iconList),
+
+  /**
+   * Defines a string value that labels the current element. See aria-labelledby.
+   */
   "aria-label": PropTypes.string,
+
   "data-test-subj": PropTypes.string,
+
   className: PropTypes.string,
+
+
   ref: PropTypes.element,
+
+  /**
+   * Title text of CallOut
+   */
+  title: PropTypes.node,
+
+  /**
+   * CallOut Heading HTML DOM tag
+   */
+  heading: PropTypes.oneOf(["h1", "h2", "h3", "h4", "h5", "h6", "p"]),
+
+  /**
+   * Color of the CallOut
+   */
+  color: PropTypes.oneOf(["primary", "accent", "success", "warning", "danger"]),
+  
+  /**
+   * Size of the CallOut
+   */
+  size: PropTypes.oneOf(["s", "m"]),
+
+  /**
+   * Icon to be displayed
+   */
+  iconType: PropTypes.oneOf(iconList), 
 };
 
 
